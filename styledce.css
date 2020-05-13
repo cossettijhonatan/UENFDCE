@@ -1,0 +1,28 @@
+*{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+#conteudo {background-color: blue; padding: 10px; text-align: center;
+color: yellow; height: auto;}
+form {text-align: center;}
+
+button {background: yellow center; border-color: blue;}
+
+
+/*seletor universal*/
+*{margin: 0; padding: 0; color:black;}
+
+/*Seletor tag*/
+h1{text-align: center; color: blue; font-size: 50px;}
+p {text-align: center; color: green; font-size: 12px;}
+
+/*seletor atributo*/
+input[type="text"] {width: 200px; background-color: yellow; height: 20px;
+    border-radius: 5px; border-color: blue;}
+input[type="email"] {width: 200px; background-color: yellow; height: 20px;
+border-radius: 5px; border-color: blue;}
+input[type="submit"] {width: 100px; background-color: yellow; height: 20px;
+    border-radius: 5px; border-color: blue; align-items: center ;}
+/*no lugar de type, pode ser name=...*/
+
+
+/*AULA 01
+h1{color: blue; font-size: 100px; font-family: tahoma;}
